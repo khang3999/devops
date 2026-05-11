@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: devops-aws
+  docker:
+    compose:
+      enabled: false
