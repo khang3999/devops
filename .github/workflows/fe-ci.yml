@@ -1,15 +1,17 @@
-name: frontend CI
+name: Frontend CI
 on:
   push:
     branches: 
       - main
     paths:
       - "frontend/**"
+      - ".github/workflows/fe-ci.yml"
   pull_request:
     branches: 
       - main
     paths:
       - "frontend/**"
+      - ".github/workflows/fe-ci.yml"
 jobs:
   j-build:
     runs-on: ubuntu-latest
